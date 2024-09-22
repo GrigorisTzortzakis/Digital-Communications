@@ -1,7 +1,9 @@
 # Huffman Coding & DPCM Compression Techniques
 
 ## Overview
-Created for the UOP CEID department in the 2023-2024 academic yaer
+
+Created for the **UOP CEID department** in the **2023-2024 academic year**.
+
 This project demonstrates two important data compression techniques: **Huffman Coding** for image compression and **Differential Pulse Code Modulation (DPCM)** for signal compression. These methods are crucial in **digital communications** and **information theory**, with applications in optimizing data transmission and storage.
 
 ---
