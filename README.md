@@ -42,8 +42,8 @@ In Part B, **DPCM** is applied to a signal sequence, allowing for signal compres
 ### Tasks:
 1. **DPCM System Implementation**:
    - Apply DPCM with different predictor values and quantization levels to compress the signal.
-   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_1.png" width="400px" ><br>
-   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/DPCM.png" width="400px">
+  <div></div> <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_1.png" width="400px" > </div>
+  <div> <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/DPCM.png" width="400px"> </div>
 
 2. **Signal Reconstruction**:
    - Compare the original and compressed signals to assess reconstruction quality and see how the predictor values affect the signal along with different quantization levels.
