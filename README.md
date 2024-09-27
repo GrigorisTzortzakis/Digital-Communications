@@ -20,17 +20,17 @@ In this section, **Huffman Coding** is applied to an image to reduce its size wh
 ### Tasks:
 1. **Huffman Coding Implementation**:
    - Compute the entropy, average code length, and compression efficiency of the image.
-
+   
    ![Huffman Coding Implementation](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Huffman_Coding.png)
 
 2. **Second-Order Extension**:
    - Perform second-order extension and compare it to the original coding.
-
+   
    ![Second-Order Extension](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Second_Order_Extension.png)
 
 3. **Binary Symmetric Channel Simulation**:
    - Simulate the encoded sequence transmission through a **Binary Symmetric Channel (BSC)** and calculate transmission errors and mutual information.
-
+   
    ![Binary Symmetric Channel Simulation](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/BSC_Simulation.png)
 
 ---
@@ -42,12 +42,12 @@ In Part B, **DPCM** is applied to a signal sequence, allowing for signal compres
 ### Tasks:
 1. **DPCM System Implementation**:
    - Apply DPCM with different predictor values and quantization levels to compress the signal.
-
+   
    ![DPCM System Implementation](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/DPCM_Implementation.png)
 
 2. **Signal Reconstruction**:
    - Compare the original and compressed signals to assess reconstruction quality.
-
+   
    ![Signal Reconstruction](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Signal_Reconstruction.png)
 
 ---
