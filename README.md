@@ -20,13 +20,19 @@ In this section, **Huffman Coding** is applied to an image to reduce its size wh
 ### Tasks:
 1. **Huffman Coding Implementation**:
    - Compute the entropy, average code length, and compression efficiency of the image.
-     ![Entropy and code length](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Entropy_code_length.png) 
+   
+   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Entropy_code_length.png" width="400px">
+
 2. **Second-Order Extension**:
    - Perform second-order extension and compare it to the original coding.
-     ![Entropy and code length 2nd order](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Entropy_code_length_2ndorder.png) 
+   
+   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Entropy_code_length_2ndorder.png" width="400px">
+
 3. **Binary Symmetric Channel Simulation**:
    - Simulate the encoded sequence transmission through a **Binary Symmetric Channel (BSC)** and calculate transmission errors and mutual information.
-     ![Binary symmetric channel](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Binary_symmetric_channel.png) 
+   
+   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Binary_symmetric_channel.png" width="400px">
+
 ---
 
 ## Part B: Differential Pulse Code Modulation (DPCM)
@@ -36,16 +42,22 @@ In Part B, **DPCM** is applied to a signal sequence, allowing for signal compres
 ### Tasks:
 1. **DPCM System Implementation**:
    - Apply DPCM with different predictor values and quantization levels to compress the signal.
-     ![Predictor values and different N](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_1.png) 
+   
+   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_1.png" width="400px">
+
 2. **Signal Reconstruction**:
    - Compare the original and compressed signals to assess reconstruction quality and see how the predictor values affect the signal along with different quantization levels.
-     ![Comparison with 1 level](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_2_p%3D12_N%3D1.png)
-     ![Comparison with 2 levels](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_2_p%3D12_N%3D2.png)
-     ![Comparison with 3 levels](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_2_p%3D12_N%3D3.png)
-     ![Question 4](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_4_p%3D5_N%3D2.png)
+   
+   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_2_p%3D12_N%3D1.png" width="400px">
+   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_2_p%3D12_N%3D2.png" width="400px">
+   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_2_p%3D12_N%3D3.png" width="400px">
+   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_4_p%3D5_N%3D2.png" width="400px">
+
 3. **Error Analysis**:
    - Calculate the **Mean Squared Error (MSE)** to evaluate compression performance.
-    ![MSE](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_3.png)
+   
+   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_3.png" width="400px">
+
 ---
 
 ## Instructions
@@ -78,10 +90,13 @@ The thought process behind the code development for this project can be found in
 ### 3. Running the Code (Part A)
 
 For **Part A**, the code files need to be executed in sequence, one by one, to ensure that variables are correctly initialized and used later on in the process. Although all scripts can be run in the same MATLAB tab, it is recommended to open each script in separate tabs so that they can be executed one at a time. You can find the code for **Part A** here: [Part A Code](https://github.com/GrigorisTzortzakis/Digital-Communications/tree/main/Project%201/Code/Part%20A).
-![Executing the code](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Sequential_code_execution_explained.png) 
 
-###  Running the Code (Part B)
+<img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Sequential_code_execution_explained.png" width="400px">
+
+### Running the Code (Part B)
 
 Similarly, for **Part B**, the files need to be executed in order. The code for Part B can be found here: [Part B Code](https://github.com/GrigorisTzortzakis/Digital-Communications/tree/main/Project%201/Code/Part%20B).
+
 For question 2, the code is included in question 1, otherwise it will not work on its own. Finally, for question 1 you must change the values of p and N manually to see the changes you want.
- ![Change values by hand](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Change_values_by_hand.png)
+
+<img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Change_values_by_hand.png" width="400px">
