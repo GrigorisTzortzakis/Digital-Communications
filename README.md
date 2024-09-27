@@ -20,19 +20,13 @@ In this section, **Huffman Coding** is applied to an image to reduce its size wh
 ### Tasks:
 1. **Huffman Coding Implementation**:
    - Compute the entropy, average code length, and compression efficiency of the image.
-   
-   ![Huffman Coding Implementation](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Huffman_Coding.png)
-
+     ![Entropy and code length](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Entropy_code_length.png) 
 2. **Second-Order Extension**:
    - Perform second-order extension and compare it to the original coding.
-   
-   ![Second-Order Extension](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Second_Order_Extension.png)
-
+     ![Entropy and code length 2nd order](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Entropy_code_length_2ndorder.png) 
 3. **Binary Symmetric Channel Simulation**:
    - Simulate the encoded sequence transmission through a **Binary Symmetric Channel (BSC)** and calculate transmission errors and mutual information.
-   
-   ![Binary Symmetric Channel Simulation](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/BSC_Simulation.png)
-
+     ![Binary symmetric channel](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Binary_symmetric_channel.png) 
 ---
 
 ## Part B: Differential Pulse Code Modulation (DPCM)
@@ -42,14 +36,16 @@ In Part B, **DPCM** is applied to a signal sequence, allowing for signal compres
 ### Tasks:
 1. **DPCM System Implementation**:
    - Apply DPCM with different predictor values and quantization levels to compress the signal.
-   
-   ![DPCM System Implementation](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/DPCM_Implementation.png)
-
+     ![Predictor values and different N](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_1.png) 
 2. **Signal Reconstruction**:
-   - Compare the original and compressed signals to assess reconstruction quality.
-   
-   ![Signal Reconstruction](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Signal_Reconstruction.png)
-
+   - Compare the original and compressed signals to assess reconstruction quality and see how the predictor values affect the signal along with different quantization levels.
+     ![Comparison with 1 level](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_2_p%3D12_N%3D1.png)
+     ![Comparison with 2 levels](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_2_p%3D12_N%3D2.png)
+     ![Comparison with 3 levels](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_2_p%3D12_N%3D3.png)
+     ![Question 4](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_4_p%3D5_N%3D2.png)
+3. **Error Analysis**:
+   - Calculate the **Mean Squared Error (MSE)** to evaluate compression performance.
+    ![MSE](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Partb_question_3.png)
 ---
 
 ## Instructions
@@ -87,4 +83,5 @@ For **Part A**, the code files need to be executed in sequence, one by one, to e
 ###  Running the Code (Part B)
 
 Similarly, for **Part B**, the files need to be executed in order. The code for Part B can be found here: [Part B Code](https://github.com/GrigorisTzortzakis/Digital-Communications/tree/main/Project%201/Code/Part%20B).
-For question 2, the code is included in question 1, otherwise it will not work.
+For question 2, the code is included in question 1, otherwise it will not work on its own. Finally, for question 1 you must change the values of p and N manually to see the changes you want.
+ ![Change values by hand](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Change_values_by_hand.png)
