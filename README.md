@@ -71,9 +71,10 @@ The thought process behind the code development for this project can be found in
 ### 3. Running the Code (Part A)
 
 For **Part A**, the code files need to be executed in sequence, one by one, to ensure that variables are correctly initialized and used later on in the process. Although all scripts can be run in the same MATLAB tab, it is recommended to open each script in separate tabs so that they can be executed one at a time. You can find the code for **Part A** here: [Part A Code](https://github.com/GrigorisTzortzakis/Digital-Communications/tree/main/Project%201/Code/Part%20A).
+![Executing the code](https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Sequential_code_execution_explained.png) 
 
 ###  Running the Code (Part B)
 
 Similarly, for **Part B**, the files need to be executed in order. The code for Part B can be found here: [Part B Code](https://github.com/GrigorisTzortzakis/Digital-Communications/tree/main/Project%201/Code/Part%20B).
-
+For question 2, the code is included in question 1, otherwise it will not work.
 
