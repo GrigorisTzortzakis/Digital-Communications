@@ -108,7 +108,7 @@ For question 2, the code is included in question 1, otherwise it will not work o
 ## Overview
 
 In **Project 2**, we explore **M-ary Phase Shift Keying (MPSK)**, with a focus on **8-PSK** and **16-PSK** systems. This project analyzes **Bit Error Rate (BER)** in relation to **Signal-to-Noise Ratio (SNR)** and visualizes the **symbol constellations** using Gray coding to minimize bit errors. The aim is to understand how different modulation schemes handle noise and the trade-offs involved in increasing the number of symbols.
-
+<div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Mpsk.png" width="400px"></div>
 ---
 
 ## Technologies Used
@@ -120,34 +120,46 @@ In **Project 2**, we explore **M-ary Phase Shift Keying (MPSK)**, with a focus o
 
 ### Tasks:
 1. **8-PSK and 16-PSK Implementation**:
-   - Simulate 8-PSK and 16-PSK modulation schemes.
+   - Simulate 8-PSK and 16-PSK modulation schemes without Gray coding.
+   - Then do the same using Gray coding to see how it lowers the BER.
    
-   <div><img src="path_to_8psk_image.png" width="400px"></div>
-   <div><img src="path_to_16psk_image.png" width="400px"></div>
+   <div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/M_circle.png" width="400px"></div>
 
-2. **BER vs. SNR Analysis**:
-   - Compare the Bit Error Rate (BER) vs. Signal-to-Noise Ratio (SNR) for 8-PSK and 16-PSK.
+2.**Symbol Constellation**:
+   - Visualize the symbol constellations for No gray coding, both M levels and SNR values (20 and 30 db).
+     <div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D8_SNR%3D20.png" width="400px"></div>
+     <div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D8_SNR%3D30.png" width="400px"></div>
+     <div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D16_SNR%3D20.png" width="400px"></div>
+     <div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D16_SNR%3D30.png" width="400px"></div>
+
+   - Visualize the symbol constellations for Gray coding, both M levels and SNR values (20 and 30 db).
+<div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D8_SNR%3D20_Gray.png" width="400px"></div>
+<div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D8_SNR%3D30_Gray.png" width="400px"></div>
+<div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D16_SNR%3D20_Gray.png" width="400px"></div>
+<div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D16_SNR%3D30_Gray.png" width="400px"></div>
+
+3. **BER vs. SNR Analysis**:
+   - Compare the Bit Error Rate (BER) vs. Signal-to-Noise Ratio (SNR) for 8-PSK and 16-PSK and see how the M affects the errors.
    
-   <div><img src="path_to_ber_snr_image.png" width="400px"></div>
+   <div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_4_M%3D8.png" width="400px"></div>
+   <div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_4_M%3D16.png" width="400px"></div>
 
-3. **Symbol Constellation**:
-   - Visualize the symbol constellations for both modulation schemes.
+
+4. **Calculate the power spectrum**:
+   - Compute the Power Spectrum of the signal to analyze its frequency components and observe how energy is distributed across different frequencies. Compare the 2 M systems.
    
-   <div><img src="path_to_symbol_constellation_image.png" width="400px"></div>
-
+   <div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Power_spectrum.png" width="400px"></div>
 ---
 
 ## Instructions
 
 Follow the steps below to complete the project.
 
-### 1. Required Files
+### 1. Running the Code
 
-Before starting, ensure that the following files are available:
+The code files need to be executed in sequence, one by one, to ensure that the simulation runs smoothly. You can find the code for **Project 2** here: [Project 2 Code](https://github.com/GrigorisTzortzakis/Digital-Communications/tree/main/Project%202/Code).
 
-- **MATLAB scripts**: For MPSK modulation simulations.
-- **Data files**: Required for running the BER analysis.
+### 2. Thought Process and Code Development
 
-### 2. Running the Code
-
-The code files need to be executed in sequence, one by one, to ensure that the simulation runs smoothly. You can find the code for **Project 2** here: [Project 2 Code](link_to_project_2_code).
+The thought process behind the code development for this project can be found in the following link:
+[Project 2  Thought Process](https://github.com/GrigorisTzortzakis/Digital-Communications/tree/main/Project%202/Theory)
