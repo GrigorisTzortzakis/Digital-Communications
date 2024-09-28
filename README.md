@@ -103,3 +103,51 @@ For question 2, the code is included in question 1, otherwise it will not work o
 
 <div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%201/pics%20for%20readme/Change_values_by_hand.png" width="400px"></div>
 
+# Project 2: M-PSK Modulation System
+
+## Overview
+
+In **Project 2**, we explore **M-ary Phase Shift Keying (MPSK)**, with a focus on **8-PSK** and **16-PSK** systems. This project analyzes **Bit Error Rate (BER)** in relation to **Signal-to-Noise Ratio (SNR)** and visualizes the **symbol constellations** using Gray coding to minimize bit errors. The aim is to understand how different modulation schemes handle noise and the trade-offs involved in increasing the number of symbols.
+
+---
+
+## Technologies Used
+- **MATLAB**: For MPSK modulation system implementation and analysis.
+
+---
+
+## M-PSK System
+
+### Tasks:
+1. **8-PSK and 16-PSK Implementation**:
+   - Simulate 8-PSK and 16-PSK modulation schemes.
+   
+   <div><img src="path_to_8psk_image.png" width="400px"></div>
+   <div><img src="path_to_16psk_image.png" width="400px"></div>
+
+2. **BER vs. SNR Analysis**:
+   - Compare the Bit Error Rate (BER) vs. Signal-to-Noise Ratio (SNR) for 8-PSK and 16-PSK.
+   
+   <div><img src="path_to_ber_snr_image.png" width="400px"></div>
+
+3. **Symbol Constellation**:
+   - Visualize the symbol constellations for both modulation schemes.
+   
+   <div><img src="path_to_symbol_constellation_image.png" width="400px"></div>
+
+---
+
+## Instructions
+
+Follow the steps below to complete the project.
+
+### 1. Required Files
+
+Before starting, ensure that the following files are available:
+
+- **MATLAB scripts**: For MPSK modulation simulations.
+- **Data files**: Required for running the BER analysis.
+
+### 2. Running the Code
+
+The code files need to be executed in sequence, one by one, to ensure that the simulation runs smoothly. You can find the code for **Project 2** here: [Project 2 Code](link_to_project_2_code).
