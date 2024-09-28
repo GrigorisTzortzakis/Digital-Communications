@@ -1,10 +1,17 @@
+# Repository Overview
+
+This repository contains two distinct projects developed for the **UOP CEID department** during the **2023-2024 academic year**. Each project showcases different aspects of data compression and modulation techniques in **digital communications**.
+
+- **Project 1: Huffman Coding & DPCM Compression Techniques**
+- **Project 2: M-PSK Modulation System**
+
+Each project is designed with a specific focus and can be run independently. Details on the technologies used, tasks performed, and instructions for running each project are provided below.
+
 # Project 1
 
 ## Huffman Coding & DPCM Compression Techniques
 
 ### Overview
-
-Created for the **UOP CEID department** in the **2023-2024 academic year**.
 
 This project demonstrates two important data compression techniques: **Huffman Coding** for image compression and **Differential Pulse Code Modulation (DPCM)** for signal compression. These methods are crucial in **digital communications** and **information theory**, with applications in optimizing data transmission and storage.
 
