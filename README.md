@@ -127,13 +127,13 @@ In **Project 2**, we explore **M-ary Phase Shift Keying (MPSK)**, with a focus o
 
 2.**Symbol Constellation**:
    - Visualize the symbol constellations for No gray coding, both M levels and SNR values (20 and 30 db).
-     <div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D8_SNR%3D20.png" width="400px">
+     <div style="display: flex; justify-content: space-between;"><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D8_SNR%3D20.png" width="400px">
      <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D8_SNR%3D30.png" width="400px">
      <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D16_SNR%3D20.png" width="400px">
      <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D16_SNR%3D30.png" width="400px"></div>
 
    - Visualize the symbol constellations for Gray coding, both M levels and SNR values (20 and 30 db).
-<div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D8_SNR%3D20_Gray.png" width="400px">
+<div style="display: flex; justify-content: space-between;"><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D8_SNR%3D20_Gray.png" width="400px">
 <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D8_SNR%3D30_Gray.png" width="400px">
 <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D16_SNR%3D20_Gray.png" width="400px">
 <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_2_M%3D16_SNR%3D30_Gray.png" width="400px"></div>
@@ -141,7 +141,7 @@ In **Project 2**, we explore **M-ary Phase Shift Keying (MPSK)**, with a focus o
 3. **BER vs. SNR Analysis**:
    - Compare the Bit Error Rate (BER) vs. Signal-to-Noise Ratio (SNR) for 8-PSK and 16-PSK and see how the M affects the errors.
    
-   <div><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_4_M%3D8.png" width="400px">
+   <div style="display: flex; justify-content: space-between;"><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_4_M%3D8.png" width="400px">
    <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_4_M%3D16.png" width="400px"></div>
 
 
