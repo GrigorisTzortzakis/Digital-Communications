@@ -1,6 +1,8 @@
-# Huffman Coding & DPCM Compression Techniques
+# Project 1
 
-## Overview
+## Huffman Coding & DPCM Compression Techniques
+
+### Overview
 
 Created for the **UOP CEID department** in the **2023-2024 academic year**.
 
