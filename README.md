@@ -148,8 +148,9 @@ In **Project 2**, we explore **M-ary Phase Shift Keying (MPSK)**, with a focus o
 3. **BER vs. SNR Analysis**:
    - Compare the Bit Error Rate (BER) vs. Signal-to-Noise Ratio (SNR) for 8-PSK and 16-PSK and see how the M affects the errors.
    
-   <div style="display: flex; justify-content: space-between;"><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_4_M%3D8.png" width="400px">
-   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_4_M%3D16.png" width="400px"></div>
+   <div style="display: flex;"><img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_4_M%3D8.png" width="400px">
+   <img src="https://github.com/GrigorisTzortzakis/Digital-Communications/blob/main/Project%202/Pics%20for%20readme/Question_4_M%3D16.png" width="400px">
+   </div>
 
 
 4. **Calculate the power spectrum**:
